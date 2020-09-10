@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+
+li {
+    color: white;
+}
+
+article {
+    color:white;
+}
+
+footer {
+    color:white;
+}
+
+ul#menu li {
+display:inline;
+}
