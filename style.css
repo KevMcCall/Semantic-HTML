@@ -1,6 +1,10 @@
 body {
-    background-color: black;
-}
+    background-image:url('images/raindrops.jpeg');
+    background-size:cover;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat:no-repeat;
+    margin: 0;
+}   
 
 li {
     color: white;
@@ -16,4 +20,41 @@ footer {
 
 ul#menu li {
 display:inline;
+}
+
+ .topnav {
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: red;
+    color: black;
+  }
+  
+.topnav a.active {
+    background-color: black;
+    color: white;
+  }
+
+.topnav input[type=text] {
+  border: 1px solid #ccc;
+  float: right;
+}
+
+article {
+  border-style: solid;
+    border-width: 2px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-color: red;
 }
