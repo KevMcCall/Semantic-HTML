@@ -1,5 +1,5 @@
 body {
-    background-image:url('images/raindrops.jpeg');
+    background-image:url('images/scuffedstatic_blue_1920x1234.jpg');
     background-size:cover;
     font-family: Arial, Helvetica, sans-serif;
     background-repeat:no-repeat;
@@ -8,10 +8,6 @@ body {
 
 li {
     color: white;
-}
-
-article {
-    color:white;
 }
 
 footer {
@@ -51,10 +47,32 @@ display:inline;
   float: right;
 }
 
-article {
-  border-style: solid;
-    border-width: 2px;
-    border-left-width: 5px;
-    border-right-width: 5px;
-    border-color: red;
+.topnav button[type=submit] {
+  border: 1px solid white
+  float: right;
 }
+
+article {
+  float: right;
+    color:white;
+}
+
+.about-me {
+  margin:0;
+  padding: 5px;
+  background-color: 
+}
+
+.about-me > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+} 
