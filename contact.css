@@ -37,16 +37,7 @@ article {
 	color: #FFFFFF
 }
 
-input[type=text], select, textarea {
-  width: 100%
-  padding:12px;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
-	margin-top: 6px;
-	margin-bottom: 16px;
-	resize: vertical;
-}
+
 
 input[type=submit] {
 	background-color: #4CAF50;
@@ -63,4 +54,8 @@ input[type=submit]:hover {
 .container {
 	border-radius: 5px;
   background-color: #FFFFFF;
+}
+
+ul.contactinfo {
+  list-style-type: none;
 }
